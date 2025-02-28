@@ -1,6 +1,6 @@
 # 📊 PySpark Stock Analysis
 
-🚀 **Real-time Stock Market Data Processing with PySpark + Kafka + Databricks**  
+**Real-time Stock Market Data Processing with PySpark + Kafka + Databricks**  
 
 This project **ingests stock market data**, processes it using **Apache Spark (PySpark)**, and performs **data analysis & transformations** to derive insights.
 
@@ -15,17 +15,17 @@ This project **ingests stock market data**, processes it using **Apache Spark (P
 
 ---
 
-Future Improvements
+##Currently Working On
 
-📍 Add Kafka for real-time stock price updates
-📍 Deploy PySpark job to Databricks
-📍 Implement machine learning for stock price predictions
+📍 **Add Kafka for real-time stock price updates
+📍 **Deploy PySpark job to Databricks
+📍 *8Implement machine learning for stock price predictions
 
 ## ⚙️ Tech Stack
 - **PySpark** 🐍 – Data processing & transformation  
 - **Kafka** 🔄 – Real-time data streaming (Upcoming)  
-- **Databricks** ☁️ – Cloud-based Spark execution  
-- **Pandas / NumPy** 📊 – Data manipulation  
+- **Databricks** ☁️ – Cloud-based Spark execution (Upcoming)  
+- **Pandas / NumPy** 📊 – Data manipulation (Upcoming)  
 
 ---
 
