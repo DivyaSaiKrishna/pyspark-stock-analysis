@@ -10,7 +10,7 @@ from config.sparkConfig import create_spark_session
 spark = create_spark_session("Stock Analysis")
 
 # Reading Stock Data 
-df = spark.read.option("header", "true").csv("data/stock_data_1.csv").toDF("Symbol", "Name","Last Sale","Net Change","% Change", "Market Cap","Country","IPO Year","Volume","Sector","Industry")
+df = spark.read.option("header", "true").csv("src/data/stock_data_1.csv").toDF("Symbol", "Name","Last Sale","Net Change","% Change", "Market Cap","Country","IPO Year","Volume","Sector","Industry")
 
 #dispplay top 5
 print(" Top 5")
